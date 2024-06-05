@@ -1,0 +1,14 @@
+tensorflow==2.15.0
+pandas
+nltk
+numpy
+scikit-learn
+python-dotenv
+
+# The following are for linting
+black
+isort
+
+# The following are for documentation
+sphinx
+sphinx-book-theme
