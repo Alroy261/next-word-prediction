@@ -7,9 +7,12 @@ from tensorflow.keras.optimizers import Adam
 from model_architecture import create_model, get_all_callbacks
 from utils.data_preprocess import preprocess
 from utils.tokenization import tokenize
-from utils.train_test_data import (create_feature_and_label,
-                                   get_n_gram_phrases, get_pad_sequences,
-                                   get_train_validation_test_data)
+from utils.train_test_data import (
+    create_feature_and_label,
+    get_n_gram_phrases,
+    get_pad_sequences,
+    get_train_validation_test_data,
+)
 
 dotenv_path = "config.env"
 
